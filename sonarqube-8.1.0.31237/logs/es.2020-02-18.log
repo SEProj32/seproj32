@@ -1,0 +1,95 @@
+2020.02.18 21:07:42 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[OS (C:)]], net usable_space [9.4gb], net total_space [206gb], types [NTFS]
+2020.02.18 21:07:42 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2020.02.18 21:07:42 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [w9O2ULLtRpC_qFX9Y9KVuA]
+2020.02.18 21:07:42 INFO  es[][o.e.n.Node] version[6.8.4], pid[6656], build[unknown/unknown/bca0c8d/2019-10-16T06:19:49.319352Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/11.0.6/11.0.6+8-LTS]
+2020.02.18 21:07:42 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\swaroop\my-app\sonarqube-8.1.0.31237\temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Xmx512m, -Xms512m, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\swaroop\my-app\sonarqube-8.1.0.31237\elasticsearch, -Des.path.conf=C:\Users\swaroop\my-app\sonarqube-8.1.0.31237\temp\conf\es]
+2020.02.18 21:07:44 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2020.02.18 21:07:44 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2020.02.18 21:07:44 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2020.02.18 21:07:44 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2020.02.18 21:07:44 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2020.02.18 21:07:44 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2020.02.18 21:07:44 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2020.02.18 21:07:44 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2020.02.18 21:07:44 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2020.02.18 21:07:47 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2020.02.18 21:07:48 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2020.02.18 21:07:49 INFO  es[][o.e.n.Node] initialized
+2020.02.18 21:07:49 INFO  es[][o.e.n.Node] starting ...
+2020.02.18 21:07:49 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2020.02.18 21:07:53 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{w9O2ULLtRpC_qFX9Y9KVuA}{z_CzCtKOQMGhXQsuiMDGrA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2020.02.18 21:07:53 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{w9O2ULLtRpC_qFX9Y9KVuA}{z_CzCtKOQMGhXQsuiMDGrA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{w9O2ULLtRpC_qFX9Y9KVuA}{z_CzCtKOQMGhXQsuiMDGrA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2020.02.18 21:07:53 INFO  es[][o.e.n.Node] started
+2020.02.18 21:07:53 INFO  es[][o.e.g.GatewayService] recovered [0] indices into cluster_state
+2020.02.18 21:08:09 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [metadatas] creating index, cause [api], templates [], shards [1]/[0], mappings []
+2020.02.18 21:08:10 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2020.02.18 21:08:10 INFO  es[][o.e.c.m.MetaDataMappingService] [metadatas/ONESdBfnSAeVzHdSG6n_Ew] create_mapping [metadata]
+2020.02.18 21:08:11 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [components] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2020.02.18 21:08:11 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[components][4]] ...]).
+2020.02.18 21:08:12 INFO  es[][o.e.c.m.MetaDataMappingService] [components/qczXVBWBQSaT0cykQPbT7A] create_mapping [auth]
+2020.02.18 21:08:12 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [projectmeasures] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2020.02.18 21:08:13 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[projectmeasures][4]] ...]).
+2020.02.18 21:08:13 INFO  es[][o.e.c.m.MetaDataMappingService] [projectmeasures/uSPcEzoCQayggVNQvOXeAg] create_mapping [auth]
+2020.02.18 21:08:13 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [rules] creating index, cause [api], templates [], shards [2]/[0], mappings []
+2020.02.18 21:08:13 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[rules][0]] ...]).
+2020.02.18 21:08:14 INFO  es[][o.e.c.m.MetaDataMappingService] [rules/YTNlBi66T_Ca2L3A9zehTA] create_mapping [rule]
+2020.02.18 21:08:14 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [issues] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2020.02.18 21:08:14 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[issues][4]] ...]).
+2020.02.18 21:08:15 INFO  es[][o.e.c.m.MetaDataMappingService] [issues/sjGiANAkRPy9tBXMJFhBlw] create_mapping [auth]
+2020.02.18 21:08:15 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [users] creating index, cause [api], templates [], shards [1]/[0], mappings []
+2020.02.18 21:08:15 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[users][0]] ...]).
+2020.02.18 21:08:15 INFO  es[][o.e.c.m.MetaDataMappingService] [users/cFraKVJITQ6igUsJn-ocmg] create_mapping [user]
+2020.02.18 21:08:16 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [views] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2020.02.18 21:08:16 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[views][4]] ...]).
+2020.02.18 21:08:16 INFO  es[][o.e.c.m.MetaDataMappingService] [views/LVF6QXr6RwCgcbqYajxhFw] create_mapping [view]
+2020.02.18 21:08:23 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [w9O2ULLtRpC_qFX9Y9KVuA][sonarqube][C:\Users\swaroop\my-app\sonarqube-8.1.0.31237\data\es6\nodes\0] free: 9.3gb[4.5%], all indices on this node will be marked read-only
+2020.02.18 21:18:21 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[OS (C:)]], net usable_space [9.3gb], net total_space [206gb], types [NTFS]
+2020.02.18 21:18:21 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2020.02.18 21:18:21 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [w9O2ULLtRpC_qFX9Y9KVuA]
+2020.02.18 21:18:21 INFO  es[][o.e.n.Node] version[6.8.4], pid[16988], build[unknown/unknown/bca0c8d/2019-10-16T06:19:49.319352Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/11.0.6/11.0.6+8-LTS]
+2020.02.18 21:18:21 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\swaroop\my-app\sonarqube-8.1.0.31237\temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Xmx512m, -Xms512m, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\swaroop\my-app\sonarqube-8.1.0.31237\elasticsearch, -Des.path.conf=C:\Users\swaroop\my-app\sonarqube-8.1.0.31237\temp\conf\es]
+2020.02.18 21:18:22 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2020.02.18 21:18:22 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2020.02.18 21:18:22 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2020.02.18 21:18:22 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2020.02.18 21:18:22 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2020.02.18 21:18:22 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2020.02.18 21:18:22 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2020.02.18 21:18:22 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2020.02.18 21:18:22 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2020.02.18 21:18:26 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2020.02.18 21:18:27 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2020.02.18 21:18:28 INFO  es[][o.e.n.Node] initialized
+2020.02.18 21:18:28 INFO  es[][o.e.n.Node] starting ...
+2020.02.18 21:18:28 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2020.02.18 21:18:31 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{w9O2ULLtRpC_qFX9Y9KVuA}{kt_XlAI8R0248yHQkHJDbw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2020.02.18 21:18:31 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{w9O2ULLtRpC_qFX9Y9KVuA}{kt_XlAI8R0248yHQkHJDbw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{w9O2ULLtRpC_qFX9Y9KVuA}{kt_XlAI8R0248yHQkHJDbw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2020.02.18 21:18:31 INFO  es[][o.e.n.Node] started
+2020.02.18 21:18:32 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2020.02.18 21:18:35 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2020.02.18 21:19:02 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [w9O2ULLtRpC_qFX9Y9KVuA][sonarqube][C:\Users\swaroop\my-app\sonarqube-8.1.0.31237\data\es6\nodes\0] free: 9.3gb[4.5%], all indices on this node will be marked read-only
+2020.02.18 21:32:49 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[OS (C:)]], net usable_space [9.9gb], net total_space [206gb], types [NTFS]
+2020.02.18 21:32:49 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2020.02.18 21:32:50 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [w9O2ULLtRpC_qFX9Y9KVuA]
+2020.02.18 21:32:50 INFO  es[][o.e.n.Node] version[6.8.4], pid[24964], build[unknown/unknown/bca0c8d/2019-10-16T06:19:49.319352Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/11.0.6/11.0.6+8-LTS]
+2020.02.18 21:32:50 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\swaroop\my-app\sonarqube-8.1.0.31237\temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Xmx512m, -Xms512m, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\swaroop\my-app\sonarqube-8.1.0.31237\elasticsearch, -Des.path.conf=C:\Users\swaroop\my-app\sonarqube-8.1.0.31237\temp\conf\es]
+2020.02.18 21:32:51 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2020.02.18 21:32:51 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2020.02.18 21:32:51 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2020.02.18 21:32:51 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2020.02.18 21:32:51 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2020.02.18 21:32:51 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2020.02.18 21:32:51 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2020.02.18 21:32:51 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2020.02.18 21:32:51 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2020.02.18 21:32:54 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2020.02.18 21:32:56 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2020.02.18 21:32:56 INFO  es[][o.e.n.Node] initialized
+2020.02.18 21:32:56 INFO  es[][o.e.n.Node] starting ...
+2020.02.18 21:32:57 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2020.02.18 21:33:00 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{w9O2ULLtRpC_qFX9Y9KVuA}{hQoDEp9wRhSXup81nVFavw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2020.02.18 21:33:00 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{w9O2ULLtRpC_qFX9Y9KVuA}{hQoDEp9wRhSXup81nVFavw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{w9O2ULLtRpC_qFX9Y9KVuA}{hQoDEp9wRhSXup81nVFavw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2020.02.18 21:33:00 INFO  es[][o.e.n.Node] started
+2020.02.18 21:33:02 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2020.02.18 21:33:06 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2020.02.18 21:33:31 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [w9O2ULLtRpC_qFX9Y9KVuA][sonarqube][C:\Users\swaroop\my-app\sonarqube-8.1.0.31237\data\es6\nodes\0] free: 9.9gb[4.8%], all indices on this node will be marked read-only
