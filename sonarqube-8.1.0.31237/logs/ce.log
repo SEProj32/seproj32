@@ -1,0 +1,173 @@
+2020.02.19 00:02:31 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2020.02.19 00:02:31 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2020.02.19 00:02:32 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2020.02.19 00:02:32 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020.02.19 00:02:32 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020.02.19 00:02:32 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020.02.19 00:02:36 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2020.02.19 00:02:36 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2020.02.19 00:02:36 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2020.02.19 00:02:37 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Users\swaroop\my-app\sonarqube-8.1.0.31237
+2020.02.19 00:02:37 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2020.02.19 00:05:43 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2020.02.19 00:05:44 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2020.02.19 00:21:42 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=sonar-scanner | type=REPORT | id=AXBZpD8TK16AMx7XJ9ui
+2020.02.19 00:21:46 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=334ms
+2020.02.19 00:21:46 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=12ms
+2020.02.19 00:21:46 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=45ms
+2020.02.19 00:21:46 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Execute DB migrations for current project | status=SUCCESS | time=16ms
+2020.02.19 00:21:46 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2020.02.19 00:21:46 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=314ms
+2020.02.19 00:21:46 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2020.02.19 00:21:46 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Verify billing | status=SUCCESS | time=0ms
+2020.02.19 00:21:46 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=12 | status=SUCCESS | time=90ms
+2020.02.19 00:21:46 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=7ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=1528ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=18ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=0ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Detect file moves | status=SUCCESS | time=0ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=9ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=34ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=7ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=13ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=2ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Copy custom measures | status=SUCCESS | time=5ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=2ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=2ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=38ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=2ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=4ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=4ms
+2020.02.19 00:21:48 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=6ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=521ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=1ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=55ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=11ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=4ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=3ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=29ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=3ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=2ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=49 | status=SUCCESS | time=26ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=293 | status=SUCCESS | time=240ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=2ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=1ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist issues | inserts=52 | updates=0 | merged=0 | untouched=0 | status=SUCCESS | time=323ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=5ms
+2020.02.19 00:21:49 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=10ms
+2020.02.19 00:21:51 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=1323ms
+2020.02.19 00:21:51 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2020.02.19 00:21:51 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=15ms
+2020.02.19 00:21:51 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=99ms
+2020.02.19 00:21:51 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=114ms
+2020.02.19 00:21:51 ERROR ce[][o.s.s.es.BulkIndexer] index [projectmeasures], type [auth], id [AXBZpD5ZK16AMx7XJ9uc], message [ClusterBlockException[blocked by: [FORBIDDEN/12/index read-only / allow delete (api)];]]
+2020.02.19 00:21:51 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=FAILED | time=102ms
+2020.02.19 00:21:51 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=8ms
+2020.02.19 00:21:51 ERROR ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.CeWorkerImpl] Failed to execute task AXBZpD8TK16AMx7XJ9ui
+java.lang.IllegalStateException: Unrecoverable indexation failures: 1 errors among 1 requests
+	at org.sonar.server.es.IndexingListener$1.onFinish(IndexingListener.java:39)
+	at org.sonar.server.es.BulkIndexer.stop(BulkIndexer.java:122)
+	at org.sonar.server.measure.index.ProjectMeasuresIndexer.doIndex(ProjectMeasuresIndexer.java:158)
+	at org.sonar.server.measure.index.ProjectMeasuresIndexer.indexOnAnalysis(ProjectMeasuresIndexer.java:82)
+	at org.sonar.ce.task.projectanalysis.step.IndexAnalysisStep.execute(IndexAnalysisStep.java:45)
+	at org.sonar.ce.task.step.ComputationStepExecutor.executeStep(ComputationStepExecutor.java:81)
+	at org.sonar.ce.task.step.ComputationStepExecutor.executeSteps(ComputationStepExecutor.java:72)
+	at org.sonar.ce.task.step.ComputationStepExecutor.execute(ComputationStepExecutor.java:59)
+	at org.sonar.ce.task.projectanalysis.taskprocessor.ReportTaskProcessor.process(ReportTaskProcessor.java:81)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl$ExecuteTask.executeTask(CeWorkerImpl.java:209)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl$ExecuteTask.run(CeWorkerImpl.java:191)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl.findAndProcessTask(CeWorkerImpl.java:158)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl$TrackRunningState.get(CeWorkerImpl.java:133)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl.call(CeWorkerImpl.java:85)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl.call(CeWorkerImpl.java:53)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:125)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:69)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.02.19 00:21:51 INFO  ce[AXBZpD8TK16AMx7XJ9ui][o.s.c.t.CeWorkerImpl] Executed task | project=sonar-scanner | type=REPORT | id=AXBZpD8TK16AMx7XJ9ui | status=FAILED | time=8713ms
+2020.02.19 00:24:36 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=sonar-scanner | type=REPORT | id=AXBZpuoZK16AMx7XJ9uk
+2020.02.19 00:24:36 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=365ms
+2020.02.19 00:24:36 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=6ms
+2020.02.19 00:24:36 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=5ms
+2020.02.19 00:24:36 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Execute DB migrations for current project | status=SUCCESS | time=9ms
+2020.02.19 00:24:36 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2020.02.19 00:24:36 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=13ms
+2020.02.19 00:24:36 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2020.02.19 00:24:36 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Verify billing | status=SUCCESS | time=0ms
+2020.02.19 00:24:36 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=12 | status=SUCCESS | time=15ms
+2020.02.19 00:24:36 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=9ms
+2020.02.19 00:24:38 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=1878ms
+2020.02.19 00:24:38 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=40ms
+2020.02.19 00:24:38 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=50ms
+2020.02.19 00:24:38 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=11 | dbFiles=11 | addedFiles=0 | status=SUCCESS | time=40ms
+2020.02.19 00:24:38 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=16ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=27ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=182ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=6ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=1ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Copy custom measures | status=SUCCESS | time=2ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=1ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=1ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=1ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=0ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=11ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=0ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=11ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=504ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=0ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=5ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=0ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=5ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=2ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=7ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=2ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=0ms
+2020.02.19 00:24:39 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=74 | status=SUCCESS | time=42ms
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=395 | status=SUCCESS | time=468ms
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist issues | inserts=0 | updates=0 | merged=0 | untouched=52 | status=SUCCESS | time=270ms
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=2ms
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=3ms
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=118ms
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=3ms
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=5ms
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=150ms
+2020.02.19 00:24:40 ERROR ce[][o.s.s.es.BulkIndexer] index [projectmeasures], type [auth], id [AXBZpD5ZK16AMx7XJ9uc], message [ClusterBlockException[blocked by: [FORBIDDEN/12/index read-only / allow delete (api)];]]
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=FAILED | time=12ms
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=7ms
+2020.02.19 00:24:40 ERROR ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.CeWorkerImpl] Failed to execute task AXBZpuoZK16AMx7XJ9uk
+java.lang.IllegalStateException: Unrecoverable indexation failures: 1 errors among 1 requests
+	at org.sonar.server.es.IndexingListener$1.onFinish(IndexingListener.java:39)
+	at org.sonar.server.es.BulkIndexer.stop(BulkIndexer.java:122)
+	at org.sonar.server.measure.index.ProjectMeasuresIndexer.doIndex(ProjectMeasuresIndexer.java:158)
+	at org.sonar.server.measure.index.ProjectMeasuresIndexer.indexOnAnalysis(ProjectMeasuresIndexer.java:82)
+	at org.sonar.ce.task.projectanalysis.step.IndexAnalysisStep.execute(IndexAnalysisStep.java:45)
+	at org.sonar.ce.task.step.ComputationStepExecutor.executeStep(ComputationStepExecutor.java:81)
+	at org.sonar.ce.task.step.ComputationStepExecutor.executeSteps(ComputationStepExecutor.java:72)
+	at org.sonar.ce.task.step.ComputationStepExecutor.execute(ComputationStepExecutor.java:59)
+	at org.sonar.ce.task.projectanalysis.taskprocessor.ReportTaskProcessor.process(ReportTaskProcessor.java:81)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl$ExecuteTask.executeTask(CeWorkerImpl.java:209)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl$ExecuteTask.run(CeWorkerImpl.java:191)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl.findAndProcessTask(CeWorkerImpl.java:158)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl$TrackRunningState.get(CeWorkerImpl.java:133)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl.call(CeWorkerImpl.java:85)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl.call(CeWorkerImpl.java:53)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:125)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:69)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.02.19 00:24:40 INFO  ce[AXBZpuoZK16AMx7XJ9uk][o.s.c.t.CeWorkerImpl] Executed task | project=sonar-scanner | type=REPORT | id=AXBZpuoZK16AMx7XJ9uk | status=FAILED | time=4550ms

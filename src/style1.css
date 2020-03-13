@@ -1,0 +1,13 @@
+.h
+{
+text-align:  center;
+color: blue;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+pre
+{
+    color:red;
+}
+div{
+    background-color: orange
+}

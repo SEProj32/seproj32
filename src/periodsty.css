@@ -1,0 +1,23 @@
+h1{
+    background-color:#800035d8;
+    border: 1px solid black;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  margin-right: 300px
+   
+}
+button{
+    background-color:#800035d8;
+    border: 1px solid black;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-right: 300px
+}
+div{
+    margin-left:200px;
+    font-family: 'Times New Roman', Times, serif
+}
