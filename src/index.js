@@ -11,8 +11,8 @@ import * as serviceWorker from './serviceWorker';
 // import F1 from './lambda_form'
 // import F2 from './singlelambda'
 // import App4 from './App4'
-//import App11 from './project2/App11'
-import App11 from './App11'
+import App11 from './project2/App11'
+//import App11 from './App11'
 // import L from './project2/login'
 ReactDOM.render(
 <App11/>
